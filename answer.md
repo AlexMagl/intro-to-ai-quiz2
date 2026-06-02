@@ -157,3 +157,16 @@ This creates a **threshold behavior**. The activation function used is the Sigmo
 One interesting result of this configuration is how it handles a "cross" pattern (where both the middle row and middle column are active). Because the output neurons have inhibitory connections to the "opposite" hidden neuron, the signals effectively cancel each other out. The output $y_1$ receives a $+10$ from $h_1$ and a $-10$ from $h_2$. The result is a neutralized sum, keeping the outputs low. This fulfills the requirement for clearly defined behavior—the network doesn't just detect "lines," it detects *pure* horizontal or vertical axes.
 
 In conclusion, by carefully aligning the weight geometry to match spatial features and using biases to enforce a "silence" threshold, we have transformed a generic 14-weight network into a robust, feature-selective classification tool. This demonstrates that intelligence in a neural network is not just a product of size, but of the specific "wiring" that allows the system to perceive meaningful structures in its environment.
+
+---
+
+### Task 3 - AI usage analysis
+
+**AI-Use Note:**
+
+For this assignment, I utilized an AI assistant to help analyze and synthesize complex experimental data. Specifically, I asked the AI to:
+* Interpret the results of 12 distinct neural network experiments to identify the inhibitory and excitatory roles of specific input cells and hidden neurons.
+* Design a custom weight and bias configuration (JSON) for Task 2 that could successfully act as a "Feature-Selective Axial Detector."
+* Help structure the technical explanations for the behavior of both the original and custom-designed networks.
+
+I used the AI's responses as a technical foundation, verifying the logic against my own experimental observations. I then incorporated the AI-generated JSON and technical analysis directly into this report to fulfill the documentation and reverse-engineering requirements of the quiz.
