@@ -16,17 +16,17 @@
 *Below are the required 6 screenshots representing key experimental states:*
 
 1. **All Values 0 (Baseline):**
-![all0s.png](./screenshots/all0s.png)
+![all0s.png](./all0s.png)
 2. **Center Cell Active:**
-![center.png](./screenshots/center.png)
+![center.png](./center.png)
 3. **All Values 1 (Full Saturation):**
-![all1s.png](./screenshots/all1s.png)
+![all1s.png](./all1s.png)
 4. **Corners Active:**
-![corners.png](./screenshots/corners.png)
+![corners.png](./corners.png)
 5. **Left Column Active:**
-![leftcolumn.png](./screenshots/leftcolumn.png)
+![leftcolumn.png](./leftcolumn.png)
 6. **Middle Column Active:**
-![midcolumn.png](./screenshots/midcolumn.png)
+![midcolumn.png](./midcolumn.png)
 
 ---
 
